@@ -1,0 +1,14 @@
+services:
+  todo-api:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - JWT_SECRET=${JWT_SECRET}
+      - DB_PATH=/app/data/database.sqlite
+    volumes:
+      - todo-data:/app/data
+
+volumes:
+  todo-data:
