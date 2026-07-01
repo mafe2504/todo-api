@@ -137,10 +137,6 @@ src/
 └── index.ts                  # Punto de entrada: monta middlewares, rutas y errorHandler
 ```
 
-## Tests
-
-_(pendiente — se documentará aquí una vez agregados)_
-
 ## Documentación de la API
 
 _(pendiente — Swagger/OpenAPI)_
